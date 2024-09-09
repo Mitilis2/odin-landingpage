@@ -16,3 +16,9 @@ svg {
   display: block;
   max-width: 100%;
 }
+:root {
+  --main-font-color: #f9faf8;
+  --dark-bg-color: #1f2937;
+  --light-bg-color: #e5e7eb;
+  --highlight-color: #3882f6;
+}
