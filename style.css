@@ -81,7 +81,8 @@ ul.rightlinks {
 img {
   width: 100%;
   height: auto;
-  max-width: 400px;
+  max-width: 200px;
+  aspect-ratio: 3 / 2;
 }
 .ss1 {
   margin-left: 250px;
@@ -90,4 +91,23 @@ img {
 p.welcome,
 button {
   margin-top: 25px;
+}
+
+.gallery-section-container > h3 {
+  text-align: center;
+  padding: 25px;
+  font-size: 36px;
+  color: var(--dark-bg-color);
+  font-weight: 900;
+}
+
+.gallery-section-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.galleryitem {
+  max-width: 250px;
 }
