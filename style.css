@@ -47,7 +47,7 @@ header {
 }
 .navbar {
   display: flex;
-  height: 100px;
+  height: 1.5em;
   justify-content: space-between;
 }
 .container {
@@ -56,7 +56,7 @@ header {
 .hero-section {
   color: var(--light-bg-color);
   background-color: var(--dark-bg-color);
-  padding: 100px;
+  padding: 5em;
 }
 .hero-section-container {
   display: flex;
@@ -71,32 +71,32 @@ ul.rightlinks {
   display: flex;
 }
 .logo {
-  font-size: 24px;
+  font-size: 3em;
   color: var(--main-font-color);
 }
 .rightlinks > li {
-  margin-left: 75px;
+  margin-left: 5.5em;
 }
 
+.ss1 {
+  margin-left: 25em;
+}
 img {
   width: 100%;
   height: auto;
-  max-width: 200px;
+  max-width: 600px;
   aspect-ratio: 3 / 2;
-}
-.ss1 {
-  margin-left: 250px;
 }
 
 p.welcome,
 button {
-  margin-top: 25px;
+  margin-top: 2.5em;
 }
 
 .gallery-section-container > h3 {
   text-align: center;
-  padding: 25px;
-  font-size: 36px;
+  padding: 2.5em;
+  font-size: 2em;
   color: var(--dark-bg-color);
   font-weight: 900;
 }
@@ -104,10 +104,35 @@ button {
 .gallery-section-gallery {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+  gap: 2em;
+  width: 100%;
 }
 .galleryitem {
-  max-width: 250px;
+  max-width: 300px;
+  height: auto;
+  margin: 2.5em;
+  border: 5px solid;
+  border-color: var(--highlight-color);
+  margin-left: 9em;
+  border-radius: 10%;
+}
+.quote-section {
+  margin: 15em;
+}
+.quote {
+  background-color: var(--light-bg-color);
+  padding: 10em;
+  font-size: 1.5em;
+  color: var(--dark-bg-color);
+  font-style: italic;
+}
+.calltoaction {
+  width: 60%;
+  display: flex;
+  margin-left: 15em;
+  background-color: var(--highlight-color);
+  text-align: justify;
+}
+.join {
+  align-self: baseline;
 }
