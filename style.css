@@ -91,11 +91,13 @@ img {
 p.welcome,
 button {
   margin-top: 2.5em;
+  padding: 1em;
+  /* margin-left: 5em; */
 }
 
 .gallery-section-container > h3 {
   text-align: center;
-  padding: 2.5em;
+  padding: 2em;
   font-size: 2em;
   color: var(--dark-bg-color);
   font-weight: 900;
@@ -104,7 +106,7 @@ button {
 .gallery-section-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
+  /* gap: 1em; */
   width: 100%;
 }
 .galleryitem {
@@ -117,7 +119,7 @@ button {
   border-radius: 10%;
 }
 .quote-section {
-  margin: 15em;
+  margin: 5em;
 }
 .quote {
   background-color: var(--light-bg-color);
@@ -129,10 +131,33 @@ button {
 .calltoaction {
   width: 60%;
   display: flex;
+  flex-wrap: nowrap;
   margin-left: 15em;
   background-color: var(--highlight-color);
   text-align: justify;
+  margin-bottom: 4em;
+  padding: 5em;
 }
 .join {
   align-self: baseline;
+}
+.footer {
+  text-align: center;
+  color: var(--main-font-color);
+  background-color: var(--dark-bg-color);
+  padding: 2em;
+}
+.calltoaction > button {
+  margin-left: 10em;
+}
+
+button {
+  background-color: var(--highlight-color);
+  color: var(--main-font-color);
+  margin-left: 5em;
+  border-radius: 10%;
+  border: white 1px solid;
+}
+#second-signup {
+  margin-left: 10em;
 }
